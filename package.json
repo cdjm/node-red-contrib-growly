@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-growly",
+  "version": "0.0.1",
+  "description": "A Node-RED node to send popup Notify alerts through Growly",
+  "dependencies": {
+    "growly": "1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdjm/node-red-contrib-growly",
+    "path": "/"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "growl",
+    "growly",
+    "notify"
+  ],
+  "node-red": {
+    "nodes": {
+      "growly": "growly.js"
+    }
+  },
+  "author": {
+    "name": "Christian Meyer",
+    "email": "cdjm@tectic.de",
+    "url": "http://www.tectic.de"
+  },
+  "readme": "A <a href=\"http://nodered.org\" target=\"_new\">Node-RED</a> node to send popup notifications.\nThis is a quick hack for node-red-node-notify to use growly instead of growl.\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/cdjm/node-red-contrib-growly",
+  "_id": "node-red-contrib-growly@0.0.1",
+  "_from": "node-red-node-notify@"
+}
